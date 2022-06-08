@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.Next2 = new System.Windows.Forms.Button();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.Q2RBNo = new System.Windows.Forms.RadioButton();
+            this.Q2RBYes = new System.Windows.Forms.RadioButton();
+            this.Q1RBNo = new System.Windows.Forms.RadioButton();
+            this.Q1RBYes = new System.Windows.Forms.RadioButton();
+            this.Q3RBNo = new System.Windows.Forms.RadioButton();
+            this.Q3RBYes = new System.Windows.Forms.RadioButton();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -55,77 +55,77 @@
             this.Next2.UseVisualStyleBackColor = false;
             this.Next2.Click += new System.EventHandler(this.Next2_Click);
             // 
-            // radioButton5
+            // Q2RBNo
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.Location = new System.Drawing.Point(239, 209);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(47, 23);
-            this.radioButton5.TabIndex = 89;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "No";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.Q2RBNo.AutoSize = true;
+            this.Q2RBNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Q2RBNo.Location = new System.Drawing.Point(239, 209);
+            this.Q2RBNo.Name = "Q2RBNo";
+            this.Q2RBNo.Size = new System.Drawing.Size(47, 23);
+            this.Q2RBNo.TabIndex = 89;
+            this.Q2RBNo.TabStop = true;
+            this.Q2RBNo.Text = "No";
+            this.Q2RBNo.UseVisualStyleBackColor = true;
             // 
-            // radioButton6
+            // Q2RBYes
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.Location = new System.Drawing.Point(192, 209);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(49, 23);
-            this.radioButton6.TabIndex = 88;
-            this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Yes";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.Q2RBYes.AutoSize = true;
+            this.Q2RBYes.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Q2RBYes.Location = new System.Drawing.Point(192, 209);
+            this.Q2RBYes.Name = "Q2RBYes";
+            this.Q2RBYes.Size = new System.Drawing.Size(49, 23);
+            this.Q2RBYes.TabIndex = 88;
+            this.Q2RBYes.TabStop = true;
+            this.Q2RBYes.Text = "Yes";
+            this.Q2RBYes.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // Q1RBNo
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(239, 126);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(47, 23);
-            this.radioButton3.TabIndex = 87;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "No";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.Q1RBNo.AutoSize = true;
+            this.Q1RBNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Q1RBNo.Location = new System.Drawing.Point(239, 126);
+            this.Q1RBNo.Name = "Q1RBNo";
+            this.Q1RBNo.Size = new System.Drawing.Size(47, 23);
+            this.Q1RBNo.TabIndex = 87;
+            this.Q1RBNo.TabStop = true;
+            this.Q1RBNo.Text = "No";
+            this.Q1RBNo.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // Q1RBYes
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(192, 126);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(49, 23);
-            this.radioButton4.TabIndex = 86;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Yes";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.Q1RBYes.AutoSize = true;
+            this.Q1RBYes.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Q1RBYes.Location = new System.Drawing.Point(192, 126);
+            this.Q1RBYes.Name = "Q1RBYes";
+            this.Q1RBYes.Size = new System.Drawing.Size(49, 23);
+            this.Q1RBYes.TabIndex = 86;
+            this.Q1RBYes.TabStop = true;
+            this.Q1RBYes.Text = "Yes";
+            this.Q1RBYes.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // Q3RBNo
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(239, 292);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(47, 23);
-            this.radioButton2.TabIndex = 85;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "No";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.Q3RBNo.AutoSize = true;
+            this.Q3RBNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Q3RBNo.Location = new System.Drawing.Point(239, 292);
+            this.Q3RBNo.Name = "Q3RBNo";
+            this.Q3RBNo.Size = new System.Drawing.Size(47, 23);
+            this.Q3RBNo.TabIndex = 85;
+            this.Q3RBNo.TabStop = true;
+            this.Q3RBNo.Text = "No";
+            this.Q3RBNo.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // Q3RBYes
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(192, 292);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(49, 23);
-            this.radioButton1.TabIndex = 84;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Yes";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.Q3RBYes.AutoSize = true;
+            this.Q3RBYes.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Q3RBYes.Location = new System.Drawing.Point(192, 292);
+            this.Q3RBYes.Name = "Q3RBYes";
+            this.Q3RBYes.Size = new System.Drawing.Size(49, 23);
+            this.Q3RBYes.TabIndex = 84;
+            this.Q3RBYes.TabStop = true;
+            this.Q3RBYes.Text = "Yes";
+            this.Q3RBYes.UseVisualStyleBackColor = true;
             // 
             // label13
             // 
@@ -174,12 +174,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(561, 372);
             this.Controls.Add(this.Next2);
-            this.Controls.Add(this.radioButton5);
-            this.Controls.Add(this.radioButton6);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.Q2RBNo);
+            this.Controls.Add(this.Q2RBYes);
+            this.Controls.Add(this.Q1RBNo);
+            this.Controls.Add(this.Q1RBYes);
+            this.Controls.Add(this.Q3RBNo);
+            this.Controls.Add(this.Q3RBYes);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -195,12 +195,12 @@
         #endregion
 
         private System.Windows.Forms.Button Next2;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton Q2RBNo;
+        private System.Windows.Forms.RadioButton Q2RBYes;
+        private System.Windows.Forms.RadioButton Q1RBNo;
+        private System.Windows.Forms.RadioButton Q1RBYes;
+        private System.Windows.Forms.RadioButton Q3RBNo;
+        private System.Windows.Forms.RadioButton Q3RBYes;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
