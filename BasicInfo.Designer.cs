@@ -60,6 +60,7 @@
             this.Nextbtn1.TabIndex = 87;
             this.Nextbtn1.Text = "Next";
             this.Nextbtn1.UseVisualStyleBackColor = false;
+            this.Nextbtn1.Click += new System.EventHandler(this.Nextbtn1_Click);
             // 
             // provine
             // 

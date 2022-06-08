@@ -17,5 +17,10 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
+
+        private void Submit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

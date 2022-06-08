@@ -53,6 +53,7 @@
             this.Next2.TabIndex = 90;
             this.Next2.Text = "Next";
             this.Next2.UseVisualStyleBackColor = false;
+            this.Next2.Click += new System.EventHandler(this.Next2_Click);
             // 
             // radioButton5
             // 

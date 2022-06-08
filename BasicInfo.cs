@@ -17,5 +17,19 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
+
+        private void Nextbtn1_Click(object sender, EventArgs e)
+        {
+            StreamWriter CollectingUsersInfo;
+
+            CollectingUsersInfo = File.AppendText("Gathered Data from Users");
+            CollectingUsersInfo.WriteLine("Name: " + firstname.Text + ' ' + middlename.Text + ' ' + lastname.Text);
+            CollectingUsersInfo.WriteLine("Birthday: " + bday.Text);
+            CollectingUsersInfo.WriteLine("Address: " + brgy.Text + ' ' + city.Text + ' ' + provine.Text);
+            CollectingUsersInfo.Close();
+
+            QStatusForm form = new QStatusForm();
+            form.ShowDialog();
+        }
     }
 }

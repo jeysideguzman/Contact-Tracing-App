@@ -50,6 +50,7 @@
             this.Submit.TabIndex = 88;
             this.Submit.Text = "Submit";
             this.Submit.UseVisualStyleBackColor = false;
+            this.Submit.Click += new System.EventHandler(this.Submit_Click);
             // 
             // FinalQNo
             // 
