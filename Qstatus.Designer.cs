@@ -185,7 +185,7 @@
             this.Controls.Add(this.label10);
             this.Name = "QStatusForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "Qaurantine Status";
             this.ResumeLayout(false);
             this.PerformLayout();
 
