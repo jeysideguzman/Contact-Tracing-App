@@ -17,5 +17,17 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            StreamWriter CollectingUsersInfo;
+
+            CollectingUsersInfo = File.AppendText("Gathered Data from Users");
+            CollectingUsersInfo.WriteLine("Email Address: " + Email.Text);
+            CollectingUsersInfo.Close();
+
+            basicinfoForm form = new basicinfoForm();
+            form.ShowDialog();
+        }
     }
 }

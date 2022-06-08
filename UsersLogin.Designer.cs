@@ -35,62 +35,64 @@
             this.LBE = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.rmbrme = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(221, 286);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(220, 304);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 31);
             this.button1.TabIndex = 0;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Email
             // 
             this.Email.BackColor = System.Drawing.Color.White;
-            this.Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Email.Location = new System.Drawing.Point(221, 174);
             this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(152, 31);
+            this.Email.Size = new System.Drawing.Size(152, 29);
             this.Email.TabIndex = 1;
             // 
             // Password
             // 
             this.Password.BackColor = System.Drawing.Color.White;
-            this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Password.Location = new System.Drawing.Point(221, 220);
             this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(152, 31);
+            this.Password.Size = new System.Drawing.Size(152, 29);
             this.Password.TabIndex = 2;
             // 
             // LBE
             // 
             this.LBE.AutoSize = true;
-            this.LBE.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.LBE.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBE.ForeColor = System.Drawing.Color.Black;
+            this.LBE.BackColor = System.Drawing.Color.Black;
+            this.LBE.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBE.ForeColor = System.Drawing.Color.White;
             this.LBE.Location = new System.Drawing.Point(110, 179);
             this.LBE.Name = "LBE";
-            this.LBE.Size = new System.Drawing.Size(60, 23);
+            this.LBE.Size = new System.Drawing.Size(65, 21);
             this.LBE.TabIndex = 3;
-            this.LBE.Text = "Email";
+            this.LBE.Text = "Email : ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(110, 225);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 23);
+            this.label1.Size = new System.Drawing.Size(93, 21);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Password";
+            this.label1.Text = "Password :";
             // 
             // pictureBox1
             // 
@@ -103,6 +105,18 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // rmbrme
+            // 
+            this.rmbrme.AutoSize = true;
+            this.rmbrme.BackColor = System.Drawing.Color.Black;
+            this.rmbrme.ForeColor = System.Drawing.Color.White;
+            this.rmbrme.Location = new System.Drawing.Point(221, 255);
+            this.rmbrme.Name = "rmbrme";
+            this.rmbrme.Size = new System.Drawing.Size(94, 17);
+            this.rmbrme.TabIndex = 6;
+            this.rmbrme.Text = "Remember me";
+            this.rmbrme.UseVisualStyleBackColor = false;
+            // 
             // usersloginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -110,6 +124,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(561, 372);
+            this.Controls.Add(this.rmbrme);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LBE);
@@ -133,6 +148,7 @@
         private System.Windows.Forms.Label LBE;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.CheckBox rmbrme;
     }
 }
 

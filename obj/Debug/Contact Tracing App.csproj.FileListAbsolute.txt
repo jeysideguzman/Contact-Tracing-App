@@ -1,0 +1,14 @@
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Contact Tracing App.exe.config
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Contact Tracing App.exe
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Contact Tracing App.pdb
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.csproj.AssemblyReference.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.csproj.SuggestedBindingRedirects.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact_Tracing_App.basicinfoForm.resources
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact_Tracing_App.QStatusForm.resources
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact_Tracing_App.tempsympForm.resources
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact_Tracing_App.usersloginForm.resources
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact_Tracing_App.Properties.Resources.resources
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.csproj.GenerateResource.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.csproj.CoreCompileInputs.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.exe
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.pdb
