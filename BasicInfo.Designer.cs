@@ -50,10 +50,9 @@
             // 
             // Nextbtn1
             // 
-            this.Nextbtn1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Nextbtn1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.Nextbtn1.BackColor = System.Drawing.Color.DarkBlue;
             this.Nextbtn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nextbtn1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Nextbtn1.ForeColor = System.Drawing.Color.White;
             this.Nextbtn1.Location = new System.Drawing.Point(422, 319);
             this.Nextbtn1.Name = "Nextbtn1";
             this.Nextbtn1.Size = new System.Drawing.Size(75, 31);

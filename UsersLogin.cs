@@ -18,7 +18,7 @@ namespace Contact_Tracing_App
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void LOGIN_Click(object sender, EventArgs e)
         {
             StreamWriter CollectingUsersInfo;
 

@@ -20,6 +20,48 @@ namespace Contact_Tracing_App
 
         private void Submit_Click(object sender, EventArgs e)
         {
+            StreamWriter CollectingUsersInfo;
+
+            CollectingUsersInfo = File.AppendText("Gathered Data from Users");
+            CollectingUsersInfo.WriteLine("Temperature: " + temp.Text);
+            CollectingUsersInfo.WriteLine("Symptoms: ");
+
+            //SYMPTOMS
+            if (Fever.Checked)
+                CollectingUsersInfo.WriteLine("Fever");
+            if (Tiredness.Checked)
+                CollectingUsersInfo.WriteLine("Tiredness");
+            if (Chills.Checked)
+                CollectingUsersInfo.WriteLine("Chills");
+            if (Cough.Checked)
+                CollectingUsersInfo.WriteLine("Cough");
+            if (Headache.Checked)
+                CollectingUsersInfo.WriteLine("Headache.Checked");
+            if (Sorethroat.Checked)
+                CollectingUsersInfo.WriteLine("Sorethroat");
+            if (Lossoftaste.Checked)
+                CollectingUsersInfo.WriteLine("Loss of taste");
+            if (Lossofsmell.Checked)
+                CollectingUsersInfo.WriteLine("Loss of smell");
+            if (Difficultyinbreathing.Checked)
+                CollectingUsersInfo.WriteLine("Difficulty in breathing");
+            if (None.Checked)
+                CollectingUsersInfo.WriteLine("None");
+
+            // last questionF4
+            if (FinalQYes.Checked)
+                CollectingUsersInfo.WriteLine("Had close contact with a COVID-19 positive person: Yes ");
+            else
+                CollectingUsersInfo.WriteLine("Had close contact with a COVID-19 positive person: No ");
+
+            CollectingUsersInfo.Close();
+
+            ExitForm form = new ExitForm();
+            form.ShowDialog();
+        }
+
+        private void tempsympForm_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -29,28 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(usersloginForm));
-            this.button1 = new System.Windows.Forms.Button();
             this.Email = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.TextBox();
             this.LBE = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.rmbrme = new System.Windows.Forms.CheckBox();
+            this.LOGIN = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(220, 304);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 31);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Email
             // 
@@ -117,6 +104,19 @@
             this.rmbrme.Text = "Remember me";
             this.rmbrme.UseVisualStyleBackColor = false;
             // 
+            // LOGIN
+            // 
+            this.LOGIN.BackColor = System.Drawing.Color.Black;
+            this.LOGIN.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LOGIN.ForeColor = System.Drawing.Color.White;
+            this.LOGIN.Location = new System.Drawing.Point(221, 302);
+            this.LOGIN.Name = "LOGIN";
+            this.LOGIN.Size = new System.Drawing.Size(95, 31);
+            this.LOGIN.TabIndex = 7;
+            this.LOGIN.Text = "Login";
+            this.LOGIN.UseVisualStyleBackColor = false;
+            this.LOGIN.Click += new System.EventHandler(this.LOGIN_Click);
+            // 
             // usersloginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -124,13 +124,13 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(561, 372);
+            this.Controls.Add(this.LOGIN);
             this.Controls.Add(this.rmbrme);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LBE);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.Email);
-            this.Controls.Add(this.button1);
             this.Name = "usersloginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Users Login";
@@ -141,14 +141,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox Email;
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.Label LBE;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox rmbrme;
+        private System.Windows.Forms.Button LOGIN;
     }
 }
 

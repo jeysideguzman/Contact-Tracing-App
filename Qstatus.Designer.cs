@@ -43,10 +43,9 @@
             // 
             // Next2
             // 
-            this.Next2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Next2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.Next2.BackColor = System.Drawing.Color.DarkBlue;
             this.Next2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Next2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Next2.ForeColor = System.Drawing.Color.White;
             this.Next2.Location = new System.Drawing.Point(422, 319);
             this.Next2.Name = "Next2";
             this.Next2.Size = new System.Drawing.Size(75, 31);

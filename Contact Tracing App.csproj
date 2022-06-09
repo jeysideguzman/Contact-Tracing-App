@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExitForm.Designer.cs">
+      <DependentUpon>ExitForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TempSymp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BasicInfo.resx">
       <DependentUpon>BasicInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExitForm.resx">
+      <DependentUpon>ExitForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Qstatus.resx">
       <DependentUpon>Qstatus.cs</DependentUpon>
