@@ -12,4 +12,3 @@ C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing A
 C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.csproj.CoreCompileInputs.cache
 C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.exe
 C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.pdb
-C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact_Tracing_App.ExitForm.resources

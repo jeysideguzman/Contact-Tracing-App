@@ -56,8 +56,9 @@ namespace Contact_Tracing_App
 
             CollectingUsersInfo.Close();
 
-            ExitForm form = new ExitForm();
-            form.ShowDialog();
+            Application.Exit();
+            
+            
         }
 
         private void tempsympForm_Load(object sender, EventArgs e)

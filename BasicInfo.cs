@@ -24,6 +24,7 @@ namespace Contact_Tracing_App
 
             CollectingUsersInfo = File.AppendText("Gathered Data from Users");
             CollectingUsersInfo.WriteLine("Name: " + firstname.Text + ' ' + middlename.Text + ' ' + lastname.Text);
+            CollectingUsersInfo.WriteLine("Age: " + Age.Text);
             CollectingUsersInfo.WriteLine("Birthday: " + bday.Text);
             CollectingUsersInfo.WriteLine("Address: " + brgy.Text + ' ' + city.Text + ' ' + provine.Text);
             CollectingUsersInfo.Close();
