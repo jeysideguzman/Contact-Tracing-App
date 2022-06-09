@@ -24,7 +24,7 @@ namespace Contact_Tracing_App
 
             CollectingUsersInfo = File.AppendText("Gathered Data from Users");
             //question#1F3
-            if (Q1RBYes.Checked)
+            if (Q1CBYes.Checked)
             {
                 CollectingUsersInfo.WriteLine("Strict Quarantine: Yes");
             }
@@ -33,7 +33,7 @@ namespace Contact_Tracing_App
                 CollectingUsersInfo.WriteLine("Strict Quarantine: No");
             }
             //question#2F3
-            if (Q2RBYes.Checked)
+            if (Q2CBYes.Checked)
             {
                 CollectingUsersInfo.WriteLine("Rapid Testing: Yes");
             }
@@ -42,7 +42,7 @@ namespace Contact_Tracing_App
                 CollectingUsersInfo.WriteLine("Rapid Testing: No");
             }
             //question#3F3
-            if (Q3RBYes.Checked)
+            if (Q3CBYes.Checked)
             {
                 CollectingUsersInfo.WriteLine("Swab Testing: Yes");
             }

@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.Next2 = new System.Windows.Forms.Button();
-            this.Q2RBNo = new System.Windows.Forms.RadioButton();
-            this.Q2RBYes = new System.Windows.Forms.RadioButton();
-            this.Q1RBNo = new System.Windows.Forms.RadioButton();
-            this.Q1RBYes = new System.Windows.Forms.RadioButton();
-            this.Q3RBNo = new System.Windows.Forms.RadioButton();
-            this.Q3RBYes = new System.Windows.Forms.RadioButton();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.Q1CBYes = new System.Windows.Forms.CheckBox();
+            this.Q1CBNo = new System.Windows.Forms.CheckBox();
+            this.Q2CBNo = new System.Windows.Forms.CheckBox();
+            this.Q2CBYes = new System.Windows.Forms.CheckBox();
+            this.Q3CBNo = new System.Windows.Forms.CheckBox();
+            this.Q3CBYes = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // Next2
@@ -53,78 +53,6 @@
             this.Next2.Text = "Next";
             this.Next2.UseVisualStyleBackColor = false;
             this.Next2.Click += new System.EventHandler(this.Next2_Click);
-            // 
-            // Q2RBNo
-            // 
-            this.Q2RBNo.AutoSize = true;
-            this.Q2RBNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q2RBNo.Location = new System.Drawing.Point(239, 209);
-            this.Q2RBNo.Name = "Q2RBNo";
-            this.Q2RBNo.Size = new System.Drawing.Size(47, 23);
-            this.Q2RBNo.TabIndex = 89;
-            this.Q2RBNo.TabStop = true;
-            this.Q2RBNo.Text = "No";
-            this.Q2RBNo.UseVisualStyleBackColor = true;
-            // 
-            // Q2RBYes
-            // 
-            this.Q2RBYes.AutoSize = true;
-            this.Q2RBYes.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q2RBYes.Location = new System.Drawing.Point(192, 209);
-            this.Q2RBYes.Name = "Q2RBYes";
-            this.Q2RBYes.Size = new System.Drawing.Size(49, 23);
-            this.Q2RBYes.TabIndex = 88;
-            this.Q2RBYes.TabStop = true;
-            this.Q2RBYes.Text = "Yes";
-            this.Q2RBYes.UseVisualStyleBackColor = true;
-            // 
-            // Q1RBNo
-            // 
-            this.Q1RBNo.AutoSize = true;
-            this.Q1RBNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q1RBNo.Location = new System.Drawing.Point(239, 126);
-            this.Q1RBNo.Name = "Q1RBNo";
-            this.Q1RBNo.Size = new System.Drawing.Size(47, 23);
-            this.Q1RBNo.TabIndex = 87;
-            this.Q1RBNo.TabStop = true;
-            this.Q1RBNo.Text = "No";
-            this.Q1RBNo.UseVisualStyleBackColor = true;
-            // 
-            // Q1RBYes
-            // 
-            this.Q1RBYes.AutoSize = true;
-            this.Q1RBYes.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q1RBYes.Location = new System.Drawing.Point(192, 126);
-            this.Q1RBYes.Name = "Q1RBYes";
-            this.Q1RBYes.Size = new System.Drawing.Size(49, 23);
-            this.Q1RBYes.TabIndex = 86;
-            this.Q1RBYes.TabStop = true;
-            this.Q1RBYes.Text = "Yes";
-            this.Q1RBYes.UseVisualStyleBackColor = true;
-            // 
-            // Q3RBNo
-            // 
-            this.Q3RBNo.AutoSize = true;
-            this.Q3RBNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q3RBNo.Location = new System.Drawing.Point(239, 292);
-            this.Q3RBNo.Name = "Q3RBNo";
-            this.Q3RBNo.Size = new System.Drawing.Size(47, 23);
-            this.Q3RBNo.TabIndex = 85;
-            this.Q3RBNo.TabStop = true;
-            this.Q3RBNo.Text = "No";
-            this.Q3RBNo.UseVisualStyleBackColor = true;
-            // 
-            // Q3RBYes
-            // 
-            this.Q3RBYes.AutoSize = true;
-            this.Q3RBYes.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q3RBYes.Location = new System.Drawing.Point(192, 292);
-            this.Q3RBYes.Name = "Q3RBYes";
-            this.Q3RBYes.Size = new System.Drawing.Size(49, 23);
-            this.Q3RBYes.TabIndex = 84;
-            this.Q3RBYes.TabStop = true;
-            this.Q3RBYes.Text = "Yes";
-            this.Q3RBYes.UseVisualStyleBackColor = true;
             // 
             // label13
             // 
@@ -167,18 +95,78 @@
             this.label10.TabIndex = 80;
             this.label10.Text = "Are you currently on strict quarantine?";
             // 
+            // Q1CBYes
+            // 
+            this.Q1CBYes.AutoSize = true;
+            this.Q1CBYes.Location = new System.Drawing.Point(225, 122);
+            this.Q1CBYes.Name = "Q1CBYes";
+            this.Q1CBYes.Size = new System.Drawing.Size(44, 17);
+            this.Q1CBYes.TabIndex = 91;
+            this.Q1CBYes.Text = "Yes";
+            this.Q1CBYes.UseVisualStyleBackColor = true;
+            // 
+            // Q1CBNo
+            // 
+            this.Q1CBNo.AutoSize = true;
+            this.Q1CBNo.Location = new System.Drawing.Point(275, 122);
+            this.Q1CBNo.Name = "Q1CBNo";
+            this.Q1CBNo.Size = new System.Drawing.Size(40, 17);
+            this.Q1CBNo.TabIndex = 93;
+            this.Q1CBNo.Text = "No";
+            this.Q1CBNo.UseVisualStyleBackColor = true;
+            // 
+            // Q2CBNo
+            // 
+            this.Q2CBNo.AutoSize = true;
+            this.Q2CBNo.Location = new System.Drawing.Point(275, 208);
+            this.Q2CBNo.Name = "Q2CBNo";
+            this.Q2CBNo.Size = new System.Drawing.Size(40, 17);
+            this.Q2CBNo.TabIndex = 95;
+            this.Q2CBNo.Text = "No";
+            this.Q2CBNo.UseVisualStyleBackColor = true;
+            // 
+            // Q2CBYes
+            // 
+            this.Q2CBYes.AutoSize = true;
+            this.Q2CBYes.Location = new System.Drawing.Point(225, 208);
+            this.Q2CBYes.Name = "Q2CBYes";
+            this.Q2CBYes.Size = new System.Drawing.Size(44, 17);
+            this.Q2CBYes.TabIndex = 94;
+            this.Q2CBYes.Text = "Yes";
+            this.Q2CBYes.UseVisualStyleBackColor = true;
+            // 
+            // Q3CBNo
+            // 
+            this.Q3CBNo.AutoSize = true;
+            this.Q3CBNo.Location = new System.Drawing.Point(275, 291);
+            this.Q3CBNo.Name = "Q3CBNo";
+            this.Q3CBNo.Size = new System.Drawing.Size(40, 17);
+            this.Q3CBNo.TabIndex = 97;
+            this.Q3CBNo.Text = "No";
+            this.Q3CBNo.UseVisualStyleBackColor = true;
+            // 
+            // Q3CBYes
+            // 
+            this.Q3CBYes.AutoSize = true;
+            this.Q3CBYes.Location = new System.Drawing.Point(225, 291);
+            this.Q3CBYes.Name = "Q3CBYes";
+            this.Q3CBYes.Size = new System.Drawing.Size(44, 17);
+            this.Q3CBYes.TabIndex = 96;
+            this.Q3CBYes.Text = "Yes";
+            this.Q3CBYes.UseVisualStyleBackColor = true;
+            // 
             // QStatusForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(561, 372);
+            this.Controls.Add(this.Q3CBNo);
+            this.Controls.Add(this.Q3CBYes);
+            this.Controls.Add(this.Q2CBNo);
+            this.Controls.Add(this.Q2CBYes);
+            this.Controls.Add(this.Q1CBNo);
+            this.Controls.Add(this.Q1CBYes);
             this.Controls.Add(this.Next2);
-            this.Controls.Add(this.Q2RBNo);
-            this.Controls.Add(this.Q2RBYes);
-            this.Controls.Add(this.Q1RBNo);
-            this.Controls.Add(this.Q1RBYes);
-            this.Controls.Add(this.Q3RBNo);
-            this.Controls.Add(this.Q3RBYes);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -194,15 +182,15 @@
         #endregion
 
         private System.Windows.Forms.Button Next2;
-        private System.Windows.Forms.RadioButton Q2RBNo;
-        private System.Windows.Forms.RadioButton Q2RBYes;
-        private System.Windows.Forms.RadioButton Q1RBNo;
-        private System.Windows.Forms.RadioButton Q1RBYes;
-        private System.Windows.Forms.RadioButton Q3RBNo;
-        private System.Windows.Forms.RadioButton Q3RBYes;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.CheckBox Q1CBYes;
+        private System.Windows.Forms.CheckBox Q1CBNo;
+        private System.Windows.Forms.CheckBox Q2CBNo;
+        private System.Windows.Forms.CheckBox Q2CBYes;
+        private System.Windows.Forms.CheckBox Q3CBNo;
+        private System.Windows.Forms.CheckBox Q3CBYes;
     }
 }
