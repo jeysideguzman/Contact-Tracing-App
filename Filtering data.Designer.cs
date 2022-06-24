@@ -1,6 +1,6 @@
 ﻿namespace Contact_Tracing_App
 {
-    partial class Form1
+    partial class filterForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(filterForm));
             this.button1 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
@@ -44,7 +44,7 @@
             this.button1.Location = new System.Drawing.Point(126, 61);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(69, 26);
+            this.button1.Size = new System.Drawing.Size(70, 35);
             this.button1.TabIndex = 1;
             this.button1.Text = "View";
             this.button1.UseVisualStyleBackColor = false;
@@ -61,10 +61,10 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(440, 106);
+            this.richTextBox2.Location = new System.Drawing.Point(418, 106);
             this.richTextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(370, 271);
+            this.richTextBox2.Size = new System.Drawing.Size(389, 274);
             this.richTextBox2.TabIndex = 3;
             this.richTextBox2.Text = "";
             // 
@@ -81,9 +81,10 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(431, 18);
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(466, 59);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(118, 26);
             this.dateTimePicker1.TabIndex = 5;
             // 
             // Exitbtn
@@ -98,8 +99,9 @@
             this.Exitbtn.TabIndex = 88;
             this.Exitbtn.Text = "Exit";
             this.Exitbtn.UseVisualStyleBackColor = false;
+            this.Exitbtn.Click += new System.EventHandler(this.Exitbtn_Click);
             // 
-            // Form1
+            // filterForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -114,7 +116,7 @@
             this.Controls.Add(this.button1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
+            this.Name = "filterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Filtering Collected Info";
             this.ResumeLayout(false);

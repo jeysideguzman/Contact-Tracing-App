@@ -22,7 +22,7 @@ namespace Contact_Tracing_App
         {
             StreamWriter CollectingUsersInfo;
 
-            CollectingUsersInfo = File.AppendText("Gathered Data from Users");
+            CollectingUsersInfo = File.AppendText("Collected Data from Users.txt");
             CollectingUsersInfo.WriteLine("Temperature: " + temp.Text);
             CollectingUsersInfo.WriteLine("Symptoms: ");
 
@@ -56,8 +56,9 @@ namespace Contact_Tracing_App
 
             CollectingUsersInfo.Close();
 
-            
-            
+
+            filterForm form = new filterForm();
+            form.ShowDialog();
         }
 
         private void tempsympForm_Load(object sender, EventArgs e)

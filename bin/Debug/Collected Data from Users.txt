@@ -1,0 +1,91 @@
+Login Date: 20/06/2022
+Email Address: jcdeguzman18@gmail.com
+Name: John Carlo Barrientes De Guzman
+Age: 19
+Birthday: Dec. 18, 2002
+Address: Lapnit San Ildefonso Bulacan
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 36.6
+Symptoms: 
+None
+Had close contact with a COVID-19 positive person: No 
+Login Date: 20/06/2022
+Email Address: jpubaldo19@gmail.com
+Name: John Paulo Ubaldo De Guzman
+Age: 19
+Birthday: Aug. 04, 2002
+Address: Lapnit San Ildefonso Bulacan
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 36.5
+Symptoms: 
+None
+Had close contact with a COVID-19 positive person: No 
+Login Date: 21/06/2022
+Email Address: jkbarrientes@gmail.com
+Name: John Kurt Cruz Barrientes
+Age: 19
+Birthday: Oct. 12, 2002
+Address: Lapnit San Ildefonso Bulacan
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 36.6
+Symptoms: 
+None
+Had close contact with a COVID-19 positive person: No 
+Login Date: 22/06/2022
+Email Address: joeydg@gmail.com
+Name: Joey Cruz De Guzman
+Age: 20
+Birthday: Jan. 24, 2002
+Address: San Juan San Ildefonso Bulacan
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 36.4
+Symptoms: 
+None
+Had close contact with a COVID-19 positive person: No 
+Login Date: 23/06/2022
+Email Address: jamesbarrientes@gmail.com
+Name: James Liwag Barrientes
+Age: 20
+Birthday: March 24, 2002
+Address: Calawitan San Ildefonso Bulacan
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 36.6
+Symptoms: 
+None
+Had close contact with a COVID-19 positive person: No 
+Login Date: 23/06/2022
+Email Address: pauldelacruz@gmail.com
+Name: Paul Liwag Dela Cruz
+Age: 19
+Birthday: Dec. 08, 2002
+Address: Malipampang San Ildefonso Bulacan
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 36.6
+Symptoms: 
+None
+Had close contact with a COVID-19 positive person: No 
+Login Date: 24/06/2022
+Email Address: johnbarrientes@gmail.com
+Name: John Cruz Barrientes
+Age: 19
+Birthday: Nov. 18, 2002
+Address: San Juan San Ildefonso Bulacan
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 36.6
+Symptoms: 
+None
+Had close contact with a COVID-19 positive person: No 

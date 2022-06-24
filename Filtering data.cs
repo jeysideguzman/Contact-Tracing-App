@@ -11,20 +11,25 @@ using System.Windows.Forms;
 
 namespace Contact_Tracing_App
 {
-    public partial class Form1 : Form
+    public partial class filterForm : Form
     {
-        public Form1()
+        public filterForm()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string datafilepath = @"C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Gathered Data from Users.txt";
+            string datafilepath = @"C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Collected Data from Users.txt";
             StreamReader stream = new StreamReader(datafilepath);
             string data = stream.ReadToEnd();
             richTextBox1.Text = data.ToString();
             stream.Close();
+        }
+
+        private void Exitbtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

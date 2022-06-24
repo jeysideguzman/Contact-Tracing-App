@@ -22,7 +22,7 @@ namespace Contact_Tracing_App
         {
             StreamWriter CollectingUsersInfo;
 
-            CollectingUsersInfo = File.AppendText("Gathered Data from Users");
+            CollectingUsersInfo = File.AppendText("Collected Data from Users.txt");
             //question#1F3
             if (Q1CBYes.Checked)
             {
