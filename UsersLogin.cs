@@ -21,8 +21,8 @@ namespace Contact_Tracing_App
         private void LOGIN_Click(object sender, EventArgs e)
         {
             StreamWriter CollectingUsersInfo;
-
             CollectingUsersInfo = File.AppendText("Gathered Data from Users");
+            CollectingUsersInfo.WriteLine("Login Date: " + DTPdateoflogin.Text);
             CollectingUsersInfo.WriteLine("Email Address: " + Email.Text);
             CollectingUsersInfo.Close();
 

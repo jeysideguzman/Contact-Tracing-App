@@ -56,7 +56,6 @@ namespace Contact_Tracing_App
 
             CollectingUsersInfo.Close();
 
-            Application.Exit();
             
             
         }

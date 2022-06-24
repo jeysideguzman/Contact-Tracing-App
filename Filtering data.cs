@@ -17,7 +17,6 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
-        StreamReader sr = new StreamReader(@"C: \Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug");
 
         private void button1_Click(object sender, EventArgs e)
         {

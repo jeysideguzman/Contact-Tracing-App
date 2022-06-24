@@ -40,6 +40,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.DTPdateoflogin = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -125,7 +126,7 @@
             this.LOGIN.BackColor = System.Drawing.Color.DarkBlue;
             this.LOGIN.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LOGIN.ForeColor = System.Drawing.Color.White;
-            this.LOGIN.Location = new System.Drawing.Point(132, 448);
+            this.LOGIN.Location = new System.Drawing.Point(132, 470);
             this.LOGIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LOGIN.Name = "LOGIN";
             this.LOGIN.Size = new System.Drawing.Size(142, 48);
@@ -182,6 +183,18 @@
             this.pictureBox5.TabIndex = 12;
             this.pictureBox5.TabStop = false;
             // 
+            // DTPdateoflogin
+            // 
+            this.DTPdateoflogin.CalendarMonthBackground = System.Drawing.Color.Transparent;
+            this.DTPdateoflogin.CalendarTitleBackColor = System.Drawing.Color.Transparent;
+            this.DTPdateoflogin.CalendarTitleForeColor = System.Drawing.Color.Transparent;
+            this.DTPdateoflogin.CalendarTrailingForeColor = System.Drawing.Color.Black;
+            this.DTPdateoflogin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DTPdateoflogin.Location = new System.Drawing.Point(132, 424);
+            this.DTPdateoflogin.Name = "DTPdateoflogin";
+            this.DTPdateoflogin.Size = new System.Drawing.Size(122, 26);
+            this.DTPdateoflogin.TabIndex = 13;
+            // 
             // usersloginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -189,6 +202,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(842, 572);
+            this.Controls.Add(this.DTPdateoflogin);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
@@ -227,6 +241,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.DateTimePicker DTPdateoflogin;
     }
 }
 

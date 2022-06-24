@@ -122,7 +122,7 @@
             // temp
             // 
             this.temp.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.temp.Location = new System.Drawing.Point(357, 65);
+            this.temp.Location = new System.Drawing.Point(333, 64);
             this.temp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.temp.Name = "temp";
             this.temp.Size = new System.Drawing.Size(124, 20);
