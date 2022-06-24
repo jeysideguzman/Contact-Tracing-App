@@ -31,3 +31,6 @@ namespace Contact_Tracing_App
         }
     }
 }
+// list all records written in the file
+//can filter record by date
+// display all data of selected record

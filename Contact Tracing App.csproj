@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Filtering data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filtering data.Designer.cs">
+      <DependentUpon>Filtering data.cs</DependentUpon>
+    </Compile>
     <Compile Include="TempSymp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BasicInfo.resx">
       <DependentUpon>BasicInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtering data.resx">
+      <DependentUpon>Filtering data.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Qstatus.resx">
       <DependentUpon>Qstatus.cs</DependentUpon>
