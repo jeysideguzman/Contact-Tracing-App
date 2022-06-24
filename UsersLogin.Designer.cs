@@ -51,19 +51,21 @@
             // 
             this.Email.BackColor = System.Drawing.Color.White;
             this.Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Email.Location = new System.Drawing.Point(88, 180);
+            this.Email.Location = new System.Drawing.Point(132, 277);
+            this.Email.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(152, 22);
+            this.Email.Size = new System.Drawing.Size(226, 22);
             this.Email.TabIndex = 1;
             // 
             // Password
             // 
             this.Password.BackColor = System.Drawing.Color.White;
             this.Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Password.Location = new System.Drawing.Point(88, 226);
+            this.Password.Location = new System.Drawing.Point(132, 348);
+            this.Password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Password.Name = "Password";
             this.Password.PasswordChar = '*';
-            this.Password.Size = new System.Drawing.Size(152, 22);
+            this.Password.Size = new System.Drawing.Size(226, 22);
             this.Password.TabIndex = 2;
             // 
             // LBE
@@ -72,7 +74,8 @@
             this.LBE.BackColor = System.Drawing.Color.Transparent;
             this.LBE.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBE.ForeColor = System.Drawing.Color.White;
-            this.LBE.Location = new System.Drawing.Point(85, 163);
+            this.LBE.Location = new System.Drawing.Point(128, 251);
+            this.LBE.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBE.Name = "LBE";
             this.LBE.Size = new System.Drawing.Size(43, 14);
             this.LBE.TabIndex = 3;
@@ -84,7 +87,8 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(85, 209);
+            this.label1.Location = new System.Drawing.Point(128, 322);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 14);
             this.label1.TabIndex = 4;
@@ -95,9 +99,10 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(56, 180);
+            this.pictureBox1.Location = new System.Drawing.Point(84, 277);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox1.Size = new System.Drawing.Size(39, 34);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -107,9 +112,10 @@
             this.rmbrme.AutoSize = true;
             this.rmbrme.BackColor = System.Drawing.Color.Transparent;
             this.rmbrme.ForeColor = System.Drawing.Color.Black;
-            this.rmbrme.Location = new System.Drawing.Point(88, 255);
+            this.rmbrme.Location = new System.Drawing.Point(132, 392);
+            this.rmbrme.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rmbrme.Name = "rmbrme";
-            this.rmbrme.Size = new System.Drawing.Size(94, 17);
+            this.rmbrme.Size = new System.Drawing.Size(133, 24);
             this.rmbrme.TabIndex = 6;
             this.rmbrme.Text = "Remember me";
             this.rmbrme.UseVisualStyleBackColor = false;
@@ -119,9 +125,10 @@
             this.LOGIN.BackColor = System.Drawing.Color.DarkBlue;
             this.LOGIN.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LOGIN.ForeColor = System.Drawing.Color.White;
-            this.LOGIN.Location = new System.Drawing.Point(88, 291);
+            this.LOGIN.Location = new System.Drawing.Point(132, 448);
+            this.LOGIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LOGIN.Name = "LOGIN";
-            this.LOGIN.Size = new System.Drawing.Size(95, 31);
+            this.LOGIN.Size = new System.Drawing.Size(142, 48);
             this.LOGIN.TabIndex = 7;
             this.LOGIN.Text = "Login";
             this.LOGIN.UseVisualStyleBackColor = false;
@@ -132,9 +139,10 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox3.Location = new System.Drawing.Point(18, 18);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(199, 126);
+            this.pictureBox3.Size = new System.Drawing.Size(298, 194);
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
@@ -143,9 +151,10 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(217, 22);
+            this.pictureBox2.Location = new System.Drawing.Point(326, 34);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(217, 116);
+            this.pictureBox2.Size = new System.Drawing.Size(326, 178);
             this.pictureBox2.TabIndex = 10;
             this.pictureBox2.TabStop = false;
             // 
@@ -154,9 +163,10 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(268, 146);
+            this.pictureBox4.Location = new System.Drawing.Point(402, 225);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(293, 229);
+            this.pictureBox4.Size = new System.Drawing.Size(440, 352);
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
             // 
@@ -165,19 +175,20 @@
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(56, 226);
+            this.pictureBox5.Location = new System.Drawing.Point(84, 348);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(26, 22);
+            this.pictureBox5.Size = new System.Drawing.Size(39, 34);
             this.pictureBox5.TabIndex = 12;
             this.pictureBox5.TabStop = false;
             // 
             // usersloginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(561, 372);
+            this.ClientSize = new System.Drawing.Size(842, 572);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
@@ -189,6 +200,8 @@
             this.Controls.Add(this.LBE);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.Email);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "usersloginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Users Login";

@@ -54,9 +54,10 @@
             this.Submit.BackColor = System.Drawing.Color.DarkBlue;
             this.Submit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Submit.ForeColor = System.Drawing.Color.White;
-            this.Submit.Location = new System.Drawing.Point(422, 319);
+            this.Submit.Location = new System.Drawing.Point(633, 491);
+            this.Submit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Submit.Name = "Submit";
-            this.Submit.Size = new System.Drawing.Size(73, 31);
+            this.Submit.Size = new System.Drawing.Size(110, 48);
             this.Submit.TabIndex = 88;
             this.Submit.Text = "Submit";
             this.Submit.UseVisualStyleBackColor = false;
@@ -68,7 +69,8 @@
             this.FinalQNo.BackColor = System.Drawing.Color.Transparent;
             this.FinalQNo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FinalQNo.ForeColor = System.Drawing.Color.Black;
-            this.FinalQNo.Location = new System.Drawing.Point(252, 314);
+            this.FinalQNo.Location = new System.Drawing.Point(378, 483);
+            this.FinalQNo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.FinalQNo.Name = "FinalQNo";
             this.FinalQNo.Size = new System.Drawing.Size(47, 23);
             this.FinalQNo.TabIndex = 87;
@@ -82,7 +84,8 @@
             this.FinalQYes.BackColor = System.Drawing.Color.Transparent;
             this.FinalQYes.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FinalQYes.ForeColor = System.Drawing.Color.Black;
-            this.FinalQYes.Location = new System.Drawing.Point(205, 314);
+            this.FinalQYes.Location = new System.Drawing.Point(308, 483);
+            this.FinalQYes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.FinalQYes.Name = "FinalQYes";
             this.FinalQYes.Size = new System.Drawing.Size(49, 23);
             this.FinalQYes.TabIndex = 86;
@@ -96,7 +99,8 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(141, 264);
+            this.label1.Location = new System.Drawing.Point(212, 406);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(245, 38);
             this.label1.TabIndex = 85;
@@ -108,7 +112,8 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(141, 79);
+            this.label15.Location = new System.Drawing.Point(212, 122);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(296, 19);
             this.label15.TabIndex = 84;
@@ -117,9 +122,10 @@
             // temp
             // 
             this.temp.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.temp.Location = new System.Drawing.Point(238, 42);
+            this.temp.Location = new System.Drawing.Point(357, 65);
+            this.temp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.temp.Name = "temp";
-            this.temp.Size = new System.Drawing.Size(84, 20);
+            this.temp.Size = new System.Drawing.Size(124, 20);
             this.temp.TabIndex = 82;
             // 
             // label14
@@ -128,7 +134,8 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(208, 20);
+            this.label14.Location = new System.Drawing.Point(312, 31);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(155, 19);
             this.label14.TabIndex = 81;
@@ -142,7 +149,8 @@
             this.Fever.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Fever.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fever.ForeColor = System.Drawing.Color.Black;
-            this.Fever.Location = new System.Drawing.Point(155, 110);
+            this.Fever.Location = new System.Drawing.Point(232, 169);
+            this.Fever.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Fever.Name = "Fever";
             this.Fever.Size = new System.Drawing.Size(53, 19);
             this.Fever.TabIndex = 89;
@@ -157,7 +165,8 @@
             this.Tiredness.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Tiredness.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tiredness.ForeColor = System.Drawing.Color.Black;
-            this.Tiredness.Location = new System.Drawing.Point(155, 135);
+            this.Tiredness.Location = new System.Drawing.Point(232, 208);
+            this.Tiredness.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Tiredness.Name = "Tiredness";
             this.Tiredness.Size = new System.Drawing.Size(73, 19);
             this.Tiredness.TabIndex = 90;
@@ -172,7 +181,8 @@
             this.Chills.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Chills.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Chills.ForeColor = System.Drawing.Color.Black;
-            this.Chills.Location = new System.Drawing.Point(155, 160);
+            this.Chills.Location = new System.Drawing.Point(232, 246);
+            this.Chills.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Chills.Name = "Chills";
             this.Chills.Size = new System.Drawing.Size(54, 19);
             this.Chills.TabIndex = 91;
@@ -187,7 +197,8 @@
             this.Sorethroat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Sorethroat.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sorethroat.ForeColor = System.Drawing.Color.Black;
-            this.Sorethroat.Location = new System.Drawing.Point(307, 110);
+            this.Sorethroat.Location = new System.Drawing.Point(460, 169);
+            this.Sorethroat.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Sorethroat.Name = "Sorethroat";
             this.Sorethroat.Size = new System.Drawing.Size(79, 19);
             this.Sorethroat.TabIndex = 94;
@@ -202,7 +213,8 @@
             this.Headache.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Headache.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Headache.ForeColor = System.Drawing.Color.Black;
-            this.Headache.Location = new System.Drawing.Point(155, 210);
+            this.Headache.Location = new System.Drawing.Point(232, 323);
+            this.Headache.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Headache.Name = "Headache";
             this.Headache.Size = new System.Drawing.Size(72, 19);
             this.Headache.TabIndex = 93;
@@ -217,7 +229,8 @@
             this.Cough.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Cough.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cough.ForeColor = System.Drawing.Color.Black;
-            this.Cough.Location = new System.Drawing.Point(155, 185);
+            this.Cough.Location = new System.Drawing.Point(232, 285);
+            this.Cough.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Cough.Name = "Cough";
             this.Cough.Size = new System.Drawing.Size(57, 19);
             this.Cough.TabIndex = 92;
@@ -232,7 +245,8 @@
             this.Lossofsmell.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Lossofsmell.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lossofsmell.ForeColor = System.Drawing.Color.Black;
-            this.Lossofsmell.Location = new System.Drawing.Point(307, 185);
+            this.Lossofsmell.Location = new System.Drawing.Point(460, 285);
+            this.Lossofsmell.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Lossofsmell.Name = "Lossofsmell";
             this.Lossofsmell.Size = new System.Drawing.Size(90, 19);
             this.Lossofsmell.TabIndex = 97;
@@ -247,7 +261,8 @@
             this.Lossoftaste.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Lossoftaste.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lossoftaste.ForeColor = System.Drawing.Color.Black;
-            this.Lossoftaste.Location = new System.Drawing.Point(307, 160);
+            this.Lossoftaste.Location = new System.Drawing.Point(460, 246);
+            this.Lossoftaste.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Lossoftaste.Name = "Lossoftaste";
             this.Lossoftaste.Size = new System.Drawing.Size(88, 19);
             this.Lossoftaste.TabIndex = 96;
@@ -262,7 +277,8 @@
             this.Chestpain.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Chestpain.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Chestpain.ForeColor = System.Drawing.Color.Black;
-            this.Chestpain.Location = new System.Drawing.Point(307, 135);
+            this.Chestpain.Location = new System.Drawing.Point(460, 208);
+            this.Chestpain.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Chestpain.Name = "Chestpain";
             this.Chestpain.Size = new System.Drawing.Size(78, 19);
             this.Chestpain.TabIndex = 95;
@@ -277,7 +293,8 @@
             this.None.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.None.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.None.ForeColor = System.Drawing.Color.Black;
-            this.None.Location = new System.Drawing.Point(245, 236);
+            this.None.Location = new System.Drawing.Point(368, 363);
+            this.None.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.None.Name = "None";
             this.None.Size = new System.Drawing.Size(52, 19);
             this.None.TabIndex = 98;
@@ -292,7 +309,8 @@
             this.Difficultyinbreathing.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.Difficultyinbreathing.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Difficultyinbreathing.ForeColor = System.Drawing.Color.Black;
-            this.Difficultyinbreathing.Location = new System.Drawing.Point(307, 210);
+            this.Difficultyinbreathing.Location = new System.Drawing.Point(460, 323);
+            this.Difficultyinbreathing.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Difficultyinbreathing.Name = "Difficultyinbreathing";
             this.Difficultyinbreathing.Size = new System.Drawing.Size(133, 19);
             this.Difficultyinbreathing.TabIndex = 99;
@@ -301,10 +319,11 @@
             // 
             // tempsympForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(561, 372);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(842, 572);
             this.Controls.Add(this.Difficultyinbreathing);
             this.Controls.Add(this.None);
             this.Controls.Add(this.Lossofsmell);
@@ -323,6 +342,8 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.temp);
             this.Controls.Add(this.label14);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "tempsympForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Temperature and Symptoms";
