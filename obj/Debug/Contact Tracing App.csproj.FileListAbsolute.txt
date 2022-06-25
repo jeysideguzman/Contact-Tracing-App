@@ -13,3 +13,14 @@ C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing A
 C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.exe
 C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.pdb
 C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact_Tracing_App.filterForm.resources
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.exe.config
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Database2.mdf
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Database2_log.ldf
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Microsoft.Data.Tools.Components.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Microsoft.Data.Tools.Utilities.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.csproj.CopyComplete
