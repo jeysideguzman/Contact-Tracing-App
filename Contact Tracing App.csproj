@@ -58,6 +58,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -79,6 +80,16 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Database2DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database2DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database2DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database2DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database2DataSet3.xsd</DependentUpon>
     </Compile>
     <Compile Include="Filtering data.cs">
       <SubType>Form</SubType>
@@ -158,6 +169,28 @@
     </None>
     <None Include="Database2DataSet1.xss">
       <DependentUpon>Database2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database2DataSet2.xsc">
+      <DependentUpon>Database2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Database2DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database2DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database2DataSet2.xss">
+      <DependentUpon>Database2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Database2DataSet3.xsc">
+      <DependentUpon>Database2DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Database2DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database2DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database2DataSet3.xss">
+      <DependentUpon>Database2DataSet3.xsd</DependentUpon>
     </None>
     <None Include="Properties\DataSources\Database2DataSet1.dataaaDataTable.datasource" />
     <None Include="Properties\Settings.settings">

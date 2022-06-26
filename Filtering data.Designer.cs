@@ -33,43 +33,36 @@
             this.button1 = new System.Windows.Forms.Button();
             this.RTBlistofinfo = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.fromdate = new System.Windows.Forms.DateTimePicker();
             this.Exitbtn = new System.Windows.Forms.Button();
-            this.loadbtn = new System.Windows.Forms.Button();
             this.dataaaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.database2DataSet = new Contact_Tracing_App.Database2DataSet();
-            this.dataaaTableAdapter = new Contact_Tracing_App.Database2DataSetTableAdapters.dataaaTableAdapter();
-            this.label2 = new System.Windows.Forms.Label();
-            this.todate = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.database2DataSet1 = new Contact_Tracing_App.Database2DataSet1();
-            this.dataaaBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.dataaaTableAdapter1 = new Contact_Tracing_App.Database2DataSet1TableAdapters.dataaaTableAdapter();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bdayDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.addressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataaaDataTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database2DataSet3 = new Contact_Tracing_App.Database2DataSet3();
+            this.label4 = new System.Windows.Forms.Label();
+            this.loadbtn = new System.Windows.Forms.Button();
+            this.dataaaTableAdapter = new Contact_Tracing_App.Database2DataSet3TableAdapters.dataaaTableAdapter();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.CV20 = new System.Windows.Forms.CheckBox();
+            this.CV21 = new System.Windows.Forms.CheckBox();
+            this.CV23 = new System.Windows.Forms.CheckBox();
+            this.CV22 = new System.Windows.Forms.CheckBox();
+            this.CV24 = new System.Windows.Forms.CheckBox();
+            this.CV25 = new System.Windows.Forms.CheckBox();
+            this.CV26 = new System.Windows.Forms.CheckBox();
+            this.CV27 = new System.Windows.Forms.CheckBox();
+            this.CV28 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataaaBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database2DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database2DataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataaaBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataaaDataTableBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database2DataSet3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkBlue;
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(380, 23);
+            this.button1.Location = new System.Drawing.Point(201, 13);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 35);
+            this.button1.Size = new System.Drawing.Size(76, 28);
             this.button1.TabIndex = 1;
             this.button1.Text = "View";
             this.button1.UseVisualStyleBackColor = false;
@@ -77,10 +70,10 @@
             // 
             // RTBlistofinfo
             // 
-            this.RTBlistofinfo.Location = new System.Drawing.Point(458, 56);
+            this.RTBlistofinfo.Location = new System.Drawing.Point(64, 51);
             this.RTBlistofinfo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.RTBlistofinfo.Name = "RTBlistofinfo";
-            this.RTBlistofinfo.Size = new System.Drawing.Size(327, 195);
+            this.RTBlistofinfo.Size = new System.Drawing.Size(660, 204);
             this.RTBlistofinfo.TabIndex = 2;
             this.RTBlistofinfo.Text = "";
             // 
@@ -89,167 +82,184 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(89, 23);
+            this.label1.Location = new System.Drawing.Point(300, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(196, 21);
             this.label1.TabIndex = 4;
             this.label1.Text = "All Gathered Information";
-            // 
-            // fromdate
-            // 
-            this.fromdate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.fromdate.Location = new System.Drawing.Point(128, 287);
-            this.fromdate.Name = "fromdate";
-            this.fromdate.Size = new System.Drawing.Size(118, 26);
-            this.fromdate.TabIndex = 5;
             // 
             // Exitbtn
             // 
             this.Exitbtn.BackColor = System.Drawing.Color.DarkBlue;
             this.Exitbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Exitbtn.ForeColor = System.Drawing.Color.White;
-            this.Exitbtn.Location = new System.Drawing.Point(756, 530);
+            this.Exitbtn.Location = new System.Drawing.Point(752, 513);
             this.Exitbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Exitbtn.Name = "Exitbtn";
-            this.Exitbtn.Size = new System.Drawing.Size(73, 28);
+            this.Exitbtn.Size = new System.Drawing.Size(73, 37);
             this.Exitbtn.TabIndex = 88;
             this.Exitbtn.Text = "Exit";
             this.Exitbtn.UseVisualStyleBackColor = false;
             this.Exitbtn.Click += new System.EventHandler(this.Exitbtn_Click);
             // 
+            // dataaaBindingSource
+            // 
+            this.dataaaBindingSource.DataMember = "dataaa";
+            this.dataaaBindingSource.DataSource = this.database2DataSet3;
+            // 
+            // database2DataSet3
+            // 
+            this.database2DataSet3.DataSetName = "Database2DataSet3";
+            this.database2DataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(147, 278);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(140, 21);
+            this.label4.TabIndex = 97;
+            this.label4.Text = "Filter Information";
+            // 
             // loadbtn
             // 
             this.loadbtn.BackColor = System.Drawing.Color.DarkBlue;
             this.loadbtn.ForeColor = System.Drawing.Color.White;
-            this.loadbtn.Location = new System.Drawing.Point(420, 285);
+            this.loadbtn.Location = new System.Drawing.Point(409, 332);
             this.loadbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.loadbtn.Name = "loadbtn";
-            this.loadbtn.Size = new System.Drawing.Size(73, 28);
-            this.loadbtn.TabIndex = 89;
+            this.loadbtn.Size = new System.Drawing.Size(76, 28);
+            this.loadbtn.TabIndex = 98;
             this.loadbtn.Text = "Load";
             this.loadbtn.UseVisualStyleBackColor = false;
             this.loadbtn.Click += new System.EventHandler(this.loadbtn_Click);
-            // 
-            // dataaaBindingSource
-            // 
-            this.dataaaBindingSource.DataMember = "dataaa";
-            this.dataaaBindingSource.DataSource = this.database2DataSet;
-            // 
-            // database2DataSet
-            // 
-            this.database2DataSet.DataSetName = "Database2DataSet";
-            this.database2DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // dataaaTableAdapter
             // 
             this.dataaaTableAdapter.ClearBeforeFill = true;
             // 
-            // label2
+            // dataGridView2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(72, 289);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 20);
-            this.label2.TabIndex = 91;
-            this.label2.Text = "From:";
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(64, 392);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(660, 124);
+            this.dataGridView2.TabIndex = 99;
             // 
-            // todate
+            // contextMenuStrip1
             // 
-            this.todate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.todate.Location = new System.Drawing.Point(295, 287);
-            this.todate.Name = "todate";
-            this.todate.Size = new System.Drawing.Size(118, 26);
-            this.todate.TabIndex = 92;
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // label3
+            // CV20
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(258, 289);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(31, 20);
-            this.label3.TabIndex = 93;
-            this.label3.Text = "To:";
+            this.CV20.AutoSize = true;
+            this.CV20.BackColor = System.Drawing.Color.Transparent;
+            this.CV20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV20.Location = new System.Drawing.Point(66, 312);
+            this.CV20.Name = "CV20";
+            this.CV20.Size = new System.Drawing.Size(90, 20);
+            this.CV20.TabIndex = 101;
+            this.CV20.Text = "20/06/2022";
+            this.CV20.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // CV21
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.dateDataGridViewTextBoxColumn,
-            this.emailDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn,
-            this.ageDataGridViewTextBoxColumn,
-            this.bdayDataGridViewTextBoxColumn,
-            this.addressDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.dataaaDataTableBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 347);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(743, 161);
-            this.dataGridView1.TabIndex = 94;
+            this.CV21.AutoSize = true;
+            this.CV21.BackColor = System.Drawing.Color.Transparent;
+            this.CV21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV21.Location = new System.Drawing.Point(66, 338);
+            this.CV21.Name = "CV21";
+            this.CV21.Size = new System.Drawing.Size(90, 20);
+            this.CV21.TabIndex = 105;
+            this.CV21.Text = "21/06/2022";
+            this.CV21.UseVisualStyleBackColor = false;
             // 
-            // database2DataSet1
+            // CV23
             // 
-            this.database2DataSet1.DataSetName = "Database2DataSet1";
-            this.database2DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.CV23.AutoSize = true;
+            this.CV23.BackColor = System.Drawing.Color.Transparent;
+            this.CV23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV23.Location = new System.Drawing.Point(177, 312);
+            this.CV23.Name = "CV23";
+            this.CV23.Size = new System.Drawing.Size(90, 20);
+            this.CV23.TabIndex = 106;
+            this.CV23.Text = "23/06/2022";
+            this.CV23.UseVisualStyleBackColor = false;
             // 
-            // dataaaBindingSource1
+            // CV22
             // 
-            this.dataaaBindingSource1.DataMember = "dataaa";
-            this.dataaaBindingSource1.DataSource = this.database2DataSet1;
+            this.CV22.AutoSize = true;
+            this.CV22.BackColor = System.Drawing.Color.Transparent;
+            this.CV22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV22.Location = new System.Drawing.Point(66, 363);
+            this.CV22.Name = "CV22";
+            this.CV22.Size = new System.Drawing.Size(90, 20);
+            this.CV22.TabIndex = 107;
+            this.CV22.Text = "22/06/2022";
+            this.CV22.UseVisualStyleBackColor = false;
             // 
-            // dataaaTableAdapter1
+            // CV24
             // 
-            this.dataaaTableAdapter1.ClearBeforeFill = true;
+            this.CV24.AutoSize = true;
+            this.CV24.BackColor = System.Drawing.Color.Transparent;
+            this.CV24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV24.Location = new System.Drawing.Point(177, 337);
+            this.CV24.Name = "CV24";
+            this.CV24.Size = new System.Drawing.Size(90, 20);
+            this.CV24.TabIndex = 108;
+            this.CV24.Text = "24/06/2022";
+            this.CV24.UseVisualStyleBackColor = false;
             // 
-            // idDataGridViewTextBoxColumn
+            // CV25
             // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "Id";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.ReadOnly = true;
+            this.CV25.AutoSize = true;
+            this.CV25.BackColor = System.Drawing.Color.Transparent;
+            this.CV25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV25.Location = new System.Drawing.Point(177, 363);
+            this.CV25.Name = "CV25";
+            this.CV25.Size = new System.Drawing.Size(90, 20);
+            this.CV25.TabIndex = 109;
+            this.CV25.Text = "25/06/2022";
+            this.CV25.UseVisualStyleBackColor = false;
             // 
-            // dateDataGridViewTextBoxColumn
+            // CV26
             // 
-            this.dateDataGridViewTextBoxColumn.DataPropertyName = "Date";
-            this.dateDataGridViewTextBoxColumn.HeaderText = "Date";
-            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
+            this.CV26.AutoSize = true;
+            this.CV26.BackColor = System.Drawing.Color.Transparent;
+            this.CV26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV26.Location = new System.Drawing.Point(288, 312);
+            this.CV26.Name = "CV26";
+            this.CV26.Size = new System.Drawing.Size(90, 20);
+            this.CV26.TabIndex = 110;
+            this.CV26.Text = "26/06/2022";
+            this.CV26.UseVisualStyleBackColor = false;
             // 
-            // emailDataGridViewTextBoxColumn
+            // CV27
             // 
-            this.emailDataGridViewTextBoxColumn.DataPropertyName = "Email";
-            this.emailDataGridViewTextBoxColumn.HeaderText = "Email";
-            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
+            this.CV27.AutoSize = true;
+            this.CV27.BackColor = System.Drawing.Color.Transparent;
+            this.CV27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV27.Location = new System.Drawing.Point(288, 337);
+            this.CV27.Name = "CV27";
+            this.CV27.Size = new System.Drawing.Size(90, 20);
+            this.CV27.TabIndex = 111;
+            this.CV27.Text = "27/06/2022";
+            this.CV27.UseVisualStyleBackColor = false;
             // 
-            // nameDataGridViewTextBoxColumn
+            // CV28
             // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            // 
-            // ageDataGridViewTextBoxColumn
-            // 
-            this.ageDataGridViewTextBoxColumn.DataPropertyName = "Age";
-            this.ageDataGridViewTextBoxColumn.HeaderText = "Age";
-            this.ageDataGridViewTextBoxColumn.Name = "ageDataGridViewTextBoxColumn";
-            // 
-            // bdayDataGridViewTextBoxColumn
-            // 
-            this.bdayDataGridViewTextBoxColumn.DataPropertyName = "Bday";
-            this.bdayDataGridViewTextBoxColumn.HeaderText = "Bday";
-            this.bdayDataGridViewTextBoxColumn.Name = "bdayDataGridViewTextBoxColumn";
-            // 
-            // addressDataGridViewTextBoxColumn
-            // 
-            this.addressDataGridViewTextBoxColumn.DataPropertyName = "Address";
-            this.addressDataGridViewTextBoxColumn.HeaderText = "Address";
-            this.addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
-            // 
-            // dataaaDataTableBindingSource
-            // 
-            this.dataaaDataTableBindingSource.DataSource = typeof(Contact_Tracing_App.Database2DataSet1.dataaaDataTable);
+            this.CV28.AutoSize = true;
+            this.CV28.BackColor = System.Drawing.Color.Transparent;
+            this.CV28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CV28.Location = new System.Drawing.Point(288, 363);
+            this.CV28.Name = "CV28";
+            this.CV28.Size = new System.Drawing.Size(90, 20);
+            this.CV28.TabIndex = 112;
+            this.CV28.Text = "28/06/2022";
+            this.CV28.UseVisualStyleBackColor = false;
             // 
             // filterForm
             // 
@@ -258,13 +268,19 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(842, 572);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.todate);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.CV28);
+            this.Controls.Add(this.CV27);
+            this.Controls.Add(this.CV26);
+            this.Controls.Add(this.CV25);
+            this.Controls.Add(this.CV24);
+            this.Controls.Add(this.CV22);
+            this.Controls.Add(this.CV23);
+            this.Controls.Add(this.CV21);
+            this.Controls.Add(this.CV20);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.loadbtn);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.Exitbtn);
-            this.Controls.Add(this.fromdate);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.RTBlistofinfo);
             this.Controls.Add(this.button1);
@@ -275,11 +291,8 @@
             this.Text = "Filtering Collected Info";
             this.Load += new System.EventHandler(this.filterForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataaaBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database2DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database2DataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataaaBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataaaDataTableBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database2DataSet3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,26 +302,22 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RichTextBox RTBlistofinfo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker fromdate;
         private System.Windows.Forms.Button Exitbtn;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button loadbtn;
-        private Database2DataSet database2DataSet;
+        private Database2DataSet3 database2DataSet3;
         private System.Windows.Forms.BindingSource dataaaBindingSource;
-        private Database2DataSetTableAdapters.dataaaTableAdapter dataaaTableAdapter;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker todate;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private Database2DataSet1 database2DataSet1;
-        private System.Windows.Forms.BindingSource dataaaBindingSource1;
-        private Database2DataSet1TableAdapters.dataaaTableAdapter dataaaTableAdapter1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ageDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn bdayDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
-        private System.Windows.Forms.BindingSource dataaaDataTableBindingSource;
+        private Database2DataSet3TableAdapters.dataaaTableAdapter dataaaTableAdapter;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.CheckBox CV20;
+        private System.Windows.Forms.CheckBox CV21;
+        private System.Windows.Forms.CheckBox CV23;
+        private System.Windows.Forms.CheckBox CV22;
+        private System.Windows.Forms.CheckBox CV24;
+        private System.Windows.Forms.CheckBox CV25;
+        private System.Windows.Forms.CheckBox CV26;
+        private System.Windows.Forms.CheckBox CV27;
+        private System.Windows.Forms.CheckBox CV28;
     }
 }
