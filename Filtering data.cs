@@ -59,14 +59,6 @@ namespace Contact_Tracing_App
             filter();
             
         }
-       
-       
-       
-
-        private string Format(DateTime value, string v)
-        {
-            throw new NotImplementedException();
-        }
 
         void filter()
         {
