@@ -26,7 +26,7 @@ namespace Contact_Tracing_App
         private void button1_Click(object sender, EventArgs e)
         {
             QRCodeGenerator qr = new QRCodeGenerator();
-            QRCodeData data = qr.CreateQrCode(qrgentb.Text,QRCodeGenerator.ECCLevel.Q);
+            QRCodeData data = qr.CreateQrCode(rtbgenqr.Text,QRCodeGenerator.ECCLevel.Q);
             QRCode code = new QRCode(data);
             pictureBox2.Image = code.GetGraphic(5);
 

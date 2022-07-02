@@ -34,10 +34,10 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.qrcodetb = new System.Windows.Forms.TextBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
+            this.viewinfobtn = new System.Windows.Forms.Button();
             this.exitbtn2 = new System.Windows.Forms.Button();
+            this.scanrtb = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +45,7 @@
             // 
             this.scanbtn.BackColor = System.Drawing.Color.DimGray;
             this.scanbtn.ForeColor = System.Drawing.Color.White;
-            this.scanbtn.Location = new System.Drawing.Point(496, 84);
+            this.scanbtn.Location = new System.Drawing.Point(483, 84);
             this.scanbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.scanbtn.Name = "scanbtn";
             this.scanbtn.Size = new System.Drawing.Size(78, 33);
@@ -82,42 +82,43 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // qrcodetb
-            // 
-            this.qrcodetb.Location = new System.Drawing.Point(496, 125);
-            this.qrcodetb.Multiline = true;
-            this.qrcodetb.Name = "qrcodetb";
-            this.qrcodetb.Size = new System.Drawing.Size(313, 252);
-            this.qrcodetb.TabIndex = 4;
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // button1
+            // viewinfobtn
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(299, 515);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 33);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "View Info";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.viewinfobtn.BackColor = System.Drawing.Color.Black;
+            this.viewinfobtn.ForeColor = System.Drawing.Color.White;
+            this.viewinfobtn.Location = new System.Drawing.Point(598, 329);
+            this.viewinfobtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.viewinfobtn.Name = "viewinfobtn";
+            this.viewinfobtn.Size = new System.Drawing.Size(88, 33);
+            this.viewinfobtn.TabIndex = 5;
+            this.viewinfobtn.Text = "View Info";
+            this.viewinfobtn.UseVisualStyleBackColor = false;
+            this.viewinfobtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // exitbtn2
             // 
             this.exitbtn2.BackColor = System.Drawing.Color.Black;
             this.exitbtn2.ForeColor = System.Drawing.Color.White;
-            this.exitbtn2.Location = new System.Drawing.Point(454, 515);
+            this.exitbtn2.Location = new System.Drawing.Point(700, 515);
             this.exitbtn2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.exitbtn2.Name = "exitbtn2";
             this.exitbtn2.Size = new System.Drawing.Size(88, 33);
             this.exitbtn2.TabIndex = 6;
             this.exitbtn2.Text = "Exit";
             this.exitbtn2.UseVisualStyleBackColor = false;
+            this.exitbtn2.Click += new System.EventHandler(this.exitbtn2_Click);
+            // 
+            // scanrtb
+            // 
+            this.scanrtb.Location = new System.Drawing.Point(483, 125);
+            this.scanrtb.Name = "scanrtb";
+            this.scanrtb.Size = new System.Drawing.Size(305, 185);
+            this.scanrtb.TabIndex = 7;
+            this.scanrtb.Text = "";
             // 
             // qrcodeform
             // 
@@ -126,9 +127,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(842, 572);
+            this.Controls.Add(this.scanrtb);
             this.Controls.Add(this.exitbtn2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.qrcodetb);
+            this.Controls.Add(this.viewinfobtn);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
@@ -152,9 +153,9 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox qrcodetb;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button viewinfobtn;
         private System.Windows.Forms.Button exitbtn2;
+        private System.Windows.Forms.RichTextBox scanrtb;
     }
 }

@@ -57,7 +57,7 @@ namespace Contact_Tracing_App
                 Result result = bcreader.Decode((Bitmap)pictureBox1.Image);
                 if (result != null)
                 {
-                    qrcodetb.Text = result.ToString();
+                    scanrtb.Text = result.ToString();
                     timer1.Stop();
                     if (capture.IsRunning)
                         capture.Stop();
@@ -70,6 +70,11 @@ namespace Contact_Tracing_App
             filterForm form = new filterForm();
             form.ShowDialog();
             
+        }
+
+        private void exitbtn2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
