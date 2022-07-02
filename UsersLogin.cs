@@ -29,6 +29,12 @@ namespace Contact_Tracing_App
             basicinfoForm form = new basicinfoForm();
             form.ShowDialog();
         }
+
+        private void toqrfrom_Click(object sender, EventArgs e)
+        {
+            qrcodeform form = new qrcodeform();
+            form.ShowDialog();
+        }
     }
 }
 // list all records written in the file

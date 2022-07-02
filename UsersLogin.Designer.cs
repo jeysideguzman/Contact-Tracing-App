@@ -41,6 +41,8 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.DTPdateoflogin = new System.Windows.Forms.DateTimePicker();
+            this.toqrfrom = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -126,10 +128,10 @@
             this.LOGIN.BackColor = System.Drawing.Color.DarkBlue;
             this.LOGIN.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LOGIN.ForeColor = System.Drawing.Color.White;
-            this.LOGIN.Location = new System.Drawing.Point(132, 470);
+            this.LOGIN.Location = new System.Drawing.Point(131, 456);
             this.LOGIN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LOGIN.Name = "LOGIN";
-            this.LOGIN.Size = new System.Drawing.Size(142, 48);
+            this.LOGIN.Size = new System.Drawing.Size(109, 36);
             this.LOGIN.TabIndex = 7;
             this.LOGIN.Text = "Login";
             this.LOGIN.UseVisualStyleBackColor = false;
@@ -195,6 +197,33 @@
             this.DTPdateoflogin.Size = new System.Drawing.Size(122, 26);
             this.DTPdateoflogin.TabIndex = 13;
             // 
+            // toqrfrom
+            // 
+            this.toqrfrom.BackColor = System.Drawing.Color.DarkBlue;
+            this.toqrfrom.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toqrfrom.ForeColor = System.Drawing.Color.White;
+            this.toqrfrom.Location = new System.Drawing.Point(132, 502);
+            this.toqrfrom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.toqrfrom.Name = "toqrfrom";
+            this.toqrfrom.Size = new System.Drawing.Size(108, 30);
+            this.toqrfrom.TabIndex = 14;
+            this.toqrfrom.Text = "Use QR Code";
+            this.toqrfrom.UseVisualStyleBackColor = false;
+            this.toqrfrom.Click += new System.EventHandler(this.toqrfrom_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(43, 508);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(81, 19);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Autofill info:";
+            // 
             // usersloginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -202,6 +231,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(842, 572);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.toqrfrom);
             this.Controls.Add(this.DTPdateoflogin);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -242,6 +273,8 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.DateTimePicker DTPdateoflogin;
+        private System.Windows.Forms.Button toqrfrom;
+        private System.Windows.Forms.Label label2;
     }
 }
 

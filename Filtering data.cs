@@ -29,9 +29,6 @@ namespace Contact_Tracing_App
             RTBlistofinfo.Text = data.ToString();
             stream.Close();
 
-            
-
-
         }
         
 

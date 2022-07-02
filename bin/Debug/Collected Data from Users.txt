@@ -602,3 +602,27 @@ Swab Testing: No
 Temperature: 
 Symptoms: 
 Had close contact with a COVID-19 positive person: No 
+Login Date: 26/06/2022
+Email Address: 
+Name:   
+Age: 
+Birthday: 
+Address:   
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 
+Symptoms: 
+Had close contact with a COVID-19 positive person: No 
+Login Date: 29/06/2022
+Email Address: 
+Name:   
+Age: 
+Birthday: 
+Address:   
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 
+Symptoms: 
+Had close contact with a COVID-19 positive person: No 
