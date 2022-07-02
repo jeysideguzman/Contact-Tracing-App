@@ -143,7 +143,7 @@ namespace Contact_Tracing_App
                 dt.Rows.Add("26/06/2022", "JCDEGUZMAN@GMAIL.COM", "JOHN CRUZ GUZMAN", "19", "OCT, 1, 2002", "CALASAG SAN ILDEFONSO BULCAN");
                 dataGridView2.DataSource = dt;
             }
-            if (CV20.Checked & CV21.Checked)
+            if (CV20.Checked && CV21.Checked)
             {
                 DataTable dt = new DataTable();
                 dt.Columns.Add("DateLogin", Type.GetType("System.DateTime"));
@@ -158,7 +158,7 @@ namespace Contact_Tracing_App
                 dt.Rows.Add("21/06/2022", "jkbarrientes@gmail.com", "John Kurt Cruz Barrientes", "19", "Oct. 12, 2002", "Lapnit San Ildefonso Bulacan");
                 dataGridView2.DataSource = dt;
             }
-            if (CV20.Checked & CV21.Checked & CV22.Checked)
+            if (CV20.Checked && CV21.Checked && CV22.Checked)
             {
                 DataTable dt = new DataTable();
                 dt.Columns.Add("DateLogin", Type.GetType("System.DateTime"));
@@ -174,7 +174,7 @@ namespace Contact_Tracing_App
                 dt.Rows.Add("22/06/2022", "joeydg@gmail.com", "Joey Cruz De Guzman", "20", "Jan. 24, 2002", "San Juan San Ildefonso Bulacan");
                 dataGridView2.DataSource = dt;
             }
-            if (CV23.Checked & CV24.Checked)
+            if (CV23.Checked && CV24.Checked)
             {
                 DataTable dt = new DataTable();
                 dt.Columns.Add("DateLogin", Type.GetType("System.DateTime"));
@@ -190,7 +190,7 @@ namespace Contact_Tracing_App
 
                 dataGridView2.DataSource = dt;
             }
-            if (CV23.Checked & CV24.Checked & CV26.Checked)
+            if (CV23.Checked && CV24.Checked && CV26.Checked)
             {
                 DataTable dt = new DataTable();
                 dt.Columns.Add("DateLogin", Type.GetType("System.DateTime"));
