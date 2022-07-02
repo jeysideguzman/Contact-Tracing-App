@@ -47,6 +47,7 @@
             this.Chestpain = new System.Windows.Forms.CheckBox();
             this.None = new System.Windows.Forms.CheckBox();
             this.Difficultyinbreathing = new System.Windows.Forms.CheckBox();
+            this.genqrcode = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Submit
@@ -317,6 +318,20 @@
             this.Difficultyinbreathing.Text = "Difficulty in breathing";
             this.Difficultyinbreathing.UseVisualStyleBackColor = false;
             // 
+            // genqrcode
+            // 
+            this.genqrcode.BackColor = System.Drawing.Color.DarkBlue;
+            this.genqrcode.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genqrcode.ForeColor = System.Drawing.Color.White;
+            this.genqrcode.Location = new System.Drawing.Point(317, 516);
+            this.genqrcode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.genqrcode.Name = "genqrcode";
+            this.genqrcode.Size = new System.Drawing.Size(140, 30);
+            this.genqrcode.TabIndex = 100;
+            this.genqrcode.Text = "Generate QR Code";
+            this.genqrcode.UseVisualStyleBackColor = false;
+            this.genqrcode.Click += new System.EventHandler(this.genqrcode_Click);
+            // 
             // tempsympForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -324,6 +339,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(842, 572);
+            this.Controls.Add(this.genqrcode);
             this.Controls.Add(this.Difficultyinbreathing);
             this.Controls.Add(this.None);
             this.Controls.Add(this.Lossofsmell);
@@ -373,5 +389,6 @@
         private System.Windows.Forms.CheckBox Chestpain;
         private System.Windows.Forms.CheckBox None;
         private System.Windows.Forms.CheckBox Difficultyinbreathing;
+        private System.Windows.Forms.Button genqrcode;
     }
 }

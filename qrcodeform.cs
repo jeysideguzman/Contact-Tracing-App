@@ -35,6 +35,7 @@ namespace Contact_Tracing_App
             capture = new VideoCaptureDevice(filter[comboBox1.SelectedIndex].MonikerString);
             capture.NewFrame += Capture_NewFrame;
             capture.Start();
+            timer1.Start();
         }
 
         private void Capture_NewFrame(object sender, NewFrameEventArgs eventArgs)
@@ -62,6 +63,13 @@ namespace Contact_Tracing_App
                         capture.Stop();
                 }
             }    
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            filterForm form = new filterForm();
+            form.ShowDialog();
+            
         }
     }
 }

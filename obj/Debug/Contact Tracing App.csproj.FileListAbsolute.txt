@@ -24,3 +24,16 @@ C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Microsoft.Data.To
 C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Microsoft.SqlServer.TransactSql.ScriptDom.dll
 C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact Tracing App.csproj.CopyComplete
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\AForge.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\AForge.Video.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\zxing.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\zxing.presentation.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\AForge.xml
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\AForge.Video.xml
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\zxing.xml
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\zxing.presentation.xml
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact_Tracing_App.qrcodeform.resources
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\bin\Debug\QRCoder.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\Contact Tracing App\obj\Debug\Contact_Tracing_App.generateqrcode.resources

@@ -35,6 +35,8 @@ namespace Contact_Tracing_App
             qrcodeform form = new qrcodeform();
             form.ShowDialog();
         }
+
+        
     }
 }
 // list all records written in the file

@@ -50,6 +50,12 @@
             this.CV26 = new System.Windows.Forms.CheckBox();
             this.CV27 = new System.Windows.Forms.CheckBox();
             this.CV28 = new System.Windows.Forms.CheckBox();
+            this.cv4 = new System.Windows.Forms.CheckBox();
+            this.cv3 = new System.Windows.Forms.CheckBox();
+            this.cv2 = new System.Windows.Forms.CheckBox();
+            this.cv1 = new System.Windows.Forms.CheckBox();
+            this.cv30 = new System.Windows.Forms.CheckBox();
+            this.cv29 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataaaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database2DataSet3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -127,10 +133,10 @@
             // 
             this.loadbtn.BackColor = System.Drawing.Color.DarkBlue;
             this.loadbtn.ForeColor = System.Drawing.Color.White;
-            this.loadbtn.Location = new System.Drawing.Point(409, 332);
+            this.loadbtn.Location = new System.Drawing.Point(361, 271);
             this.loadbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.loadbtn.Name = "loadbtn";
-            this.loadbtn.Size = new System.Drawing.Size(76, 28);
+            this.loadbtn.Size = new System.Drawing.Size(85, 28);
             this.loadbtn.TabIndex = 98;
             this.loadbtn.Text = "Load";
             this.loadbtn.UseVisualStyleBackColor = false;
@@ -158,7 +164,7 @@
             this.CV20.AutoSize = true;
             this.CV20.BackColor = System.Drawing.Color.Transparent;
             this.CV20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CV20.Location = new System.Drawing.Point(66, 312);
+            this.CV20.Location = new System.Drawing.Point(125, 310);
             this.CV20.Name = "CV20";
             this.CV20.Size = new System.Drawing.Size(90, 20);
             this.CV20.TabIndex = 101;
@@ -170,7 +176,7 @@
             this.CV21.AutoSize = true;
             this.CV21.BackColor = System.Drawing.Color.Transparent;
             this.CV21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CV21.Location = new System.Drawing.Point(66, 338);
+            this.CV21.Location = new System.Drawing.Point(125, 336);
             this.CV21.Name = "CV21";
             this.CV21.Size = new System.Drawing.Size(90, 20);
             this.CV21.TabIndex = 105;
@@ -182,7 +188,7 @@
             this.CV23.AutoSize = true;
             this.CV23.BackColor = System.Drawing.Color.Transparent;
             this.CV23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CV23.Location = new System.Drawing.Point(177, 312);
+            this.CV23.Location = new System.Drawing.Point(236, 310);
             this.CV23.Name = "CV23";
             this.CV23.Size = new System.Drawing.Size(90, 20);
             this.CV23.TabIndex = 106;
@@ -194,7 +200,7 @@
             this.CV22.AutoSize = true;
             this.CV22.BackColor = System.Drawing.Color.Transparent;
             this.CV22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CV22.Location = new System.Drawing.Point(66, 363);
+            this.CV22.Location = new System.Drawing.Point(125, 361);
             this.CV22.Name = "CV22";
             this.CV22.Size = new System.Drawing.Size(90, 20);
             this.CV22.TabIndex = 107;
@@ -206,7 +212,7 @@
             this.CV24.AutoSize = true;
             this.CV24.BackColor = System.Drawing.Color.Transparent;
             this.CV24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CV24.Location = new System.Drawing.Point(177, 337);
+            this.CV24.Location = new System.Drawing.Point(236, 335);
             this.CV24.Name = "CV24";
             this.CV24.Size = new System.Drawing.Size(90, 20);
             this.CV24.TabIndex = 108;
@@ -218,7 +224,7 @@
             this.CV25.AutoSize = true;
             this.CV25.BackColor = System.Drawing.Color.Transparent;
             this.CV25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CV25.Location = new System.Drawing.Point(177, 363);
+            this.CV25.Location = new System.Drawing.Point(236, 361);
             this.CV25.Name = "CV25";
             this.CV25.Size = new System.Drawing.Size(90, 20);
             this.CV25.TabIndex = 109;
@@ -230,7 +236,7 @@
             this.CV26.AutoSize = true;
             this.CV26.BackColor = System.Drawing.Color.Transparent;
             this.CV26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CV26.Location = new System.Drawing.Point(288, 312);
+            this.CV26.Location = new System.Drawing.Point(347, 310);
             this.CV26.Name = "CV26";
             this.CV26.Size = new System.Drawing.Size(90, 20);
             this.CV26.TabIndex = 110;
@@ -242,7 +248,7 @@
             this.CV27.AutoSize = true;
             this.CV27.BackColor = System.Drawing.Color.Transparent;
             this.CV27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CV27.Location = new System.Drawing.Point(288, 337);
+            this.CV27.Location = new System.Drawing.Point(347, 335);
             this.CV27.Name = "CV27";
             this.CV27.Size = new System.Drawing.Size(90, 20);
             this.CV27.TabIndex = 111;
@@ -254,12 +260,84 @@
             this.CV28.AutoSize = true;
             this.CV28.BackColor = System.Drawing.Color.Transparent;
             this.CV28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CV28.Location = new System.Drawing.Point(288, 363);
+            this.CV28.Location = new System.Drawing.Point(347, 361);
             this.CV28.Name = "CV28";
             this.CV28.Size = new System.Drawing.Size(90, 20);
             this.CV28.TabIndex = 112;
             this.CV28.Text = "28/06/2022";
             this.CV28.UseVisualStyleBackColor = false;
+            // 
+            // cv4
+            // 
+            this.cv4.AutoSize = true;
+            this.cv4.BackColor = System.Drawing.Color.Transparent;
+            this.cv4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cv4.Location = new System.Drawing.Point(576, 361);
+            this.cv4.Name = "cv4";
+            this.cv4.Size = new System.Drawing.Size(90, 20);
+            this.cv4.TabIndex = 118;
+            this.cv4.Text = "04/07/2022";
+            this.cv4.UseVisualStyleBackColor = false;
+            // 
+            // cv3
+            // 
+            this.cv3.AutoSize = true;
+            this.cv3.BackColor = System.Drawing.Color.Transparent;
+            this.cv3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cv3.Location = new System.Drawing.Point(576, 335);
+            this.cv3.Name = "cv3";
+            this.cv3.Size = new System.Drawing.Size(90, 20);
+            this.cv3.TabIndex = 117;
+            this.cv3.Text = "03/07/2022";
+            this.cv3.UseVisualStyleBackColor = false;
+            // 
+            // cv2
+            // 
+            this.cv2.AutoSize = true;
+            this.cv2.BackColor = System.Drawing.Color.Transparent;
+            this.cv2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cv2.Location = new System.Drawing.Point(576, 310);
+            this.cv2.Name = "cv2";
+            this.cv2.Size = new System.Drawing.Size(90, 20);
+            this.cv2.TabIndex = 116;
+            this.cv2.Text = "02/07/2022";
+            this.cv2.UseVisualStyleBackColor = false;
+            // 
+            // cv1
+            // 
+            this.cv1.AutoSize = true;
+            this.cv1.BackColor = System.Drawing.Color.Transparent;
+            this.cv1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cv1.Location = new System.Drawing.Point(465, 361);
+            this.cv1.Name = "cv1";
+            this.cv1.Size = new System.Drawing.Size(90, 20);
+            this.cv1.TabIndex = 115;
+            this.cv1.Text = "01/07/2022";
+            this.cv1.UseVisualStyleBackColor = false;
+            // 
+            // cv30
+            // 
+            this.cv30.AutoSize = true;
+            this.cv30.BackColor = System.Drawing.Color.Transparent;
+            this.cv30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cv30.Location = new System.Drawing.Point(465, 335);
+            this.cv30.Name = "cv30";
+            this.cv30.Size = new System.Drawing.Size(90, 20);
+            this.cv30.TabIndex = 114;
+            this.cv30.Text = "30/06/2022";
+            this.cv30.UseVisualStyleBackColor = false;
+            // 
+            // cv29
+            // 
+            this.cv29.AutoSize = true;
+            this.cv29.BackColor = System.Drawing.Color.Transparent;
+            this.cv29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cv29.Location = new System.Drawing.Point(465, 310);
+            this.cv29.Name = "cv29";
+            this.cv29.Size = new System.Drawing.Size(90, 20);
+            this.cv29.TabIndex = 113;
+            this.cv29.Text = "29/06/2022";
+            this.cv29.UseVisualStyleBackColor = false;
             // 
             // filterForm
             // 
@@ -268,6 +346,12 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(842, 572);
+            this.Controls.Add(this.cv4);
+            this.Controls.Add(this.cv3);
+            this.Controls.Add(this.cv2);
+            this.Controls.Add(this.cv1);
+            this.Controls.Add(this.cv30);
+            this.Controls.Add(this.cv29);
             this.Controls.Add(this.CV28);
             this.Controls.Add(this.CV27);
             this.Controls.Add(this.CV26);
@@ -319,5 +403,11 @@
         private System.Windows.Forms.CheckBox CV26;
         private System.Windows.Forms.CheckBox CV27;
         private System.Windows.Forms.CheckBox CV28;
+        private System.Windows.Forms.CheckBox cv4;
+        private System.Windows.Forms.CheckBox cv3;
+        private System.Windows.Forms.CheckBox cv2;
+        private System.Windows.Forms.CheckBox cv1;
+        private System.Windows.Forms.CheckBox cv30;
+        private System.Windows.Forms.CheckBox cv29;
     }
 }

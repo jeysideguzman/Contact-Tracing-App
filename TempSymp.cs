@@ -65,5 +65,11 @@ namespace Contact_Tracing_App
         {
 
         }
+
+        private void genqrcode_Click(object sender, EventArgs e)
+        {
+            generateqrcode form = new generateqrcode();
+            form.ShowDialog();
+        }
     }
 }
