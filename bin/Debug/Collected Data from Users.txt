@@ -635,3 +635,54 @@ Address:
 Strict Quarantine: No
 Rapid Testing: No
 Swab Testing: No
+Login Date: 10/07/2022
+Email Address: 
+Name:   
+Age: 
+Birthday: 
+Address:   
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 
+Symptoms: 
+Had close contact with a COVID-19 positive person: No 
+Temperature: 
+Symptoms: 
+Had close contact with a COVID-19 positive person: No 
+Login Date: 10/07/2022
+Email Address: 
+Name:   
+Age: 
+Birthday: 
+Address:   
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 
+Symptoms: 
+Had close contact with a COVID-19 positive person: No 
+Login Date: 10/07/2022
+Email Address: 
+Name:   
+Age: 
+Birthday: 
+Address:   
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 
+Symptoms: 
+Had close contact with a COVID-19 positive person: No 
+Login Date: 10/07/2022
+Email Address: 
+Name:   
+Age: 
+Birthday: 
+Address:   
+Strict Quarantine: No
+Rapid Testing: No
+Swab Testing: No
+Temperature: 
+Symptoms: 
+Had close contact with a COVID-19 positive person: No 
